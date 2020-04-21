@@ -29,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Calculation of inverse and storing of that inverse in the lis
+## Calculation of inverse, storing of that inverse in the list and printing the result
 
 cacheSolve <- function(x, ...) {
     im <- x$getinverse()
